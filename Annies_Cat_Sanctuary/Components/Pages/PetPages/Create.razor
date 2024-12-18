@@ -1,0 +1,99 @@
+﻿@page "/pets/create"
+@using Microsoft.EntityFrameworkCore
+@using Annies_Cat_Sanctuary.Models
+@inject IDbContextFactory<Annies_Cat_Sanctuary.Data.Annies_Cat_SanctuaryContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Create</PageTitle>
+
+<h1>Create</h1>
+
+<h2>Pet</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="Pet" OnValidSubmit="AddPet" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" role="alert"/>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label> 
+                <InputText id="name" @bind-Value="Pet.Name" class="form-control" /> 
+                <ValidationMessage For="() => Pet.Name" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="birthdate" class="form-label">BirthDate:</label> 
+                <InputDate id="birthdate" @bind-Value="Pet.BirthDate" class="form-control" /> 
+                <ValidationMessage For="() => Pet.BirthDate" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="healthstatus" class="form-label">HealthStatus:</label> 
+                <InputText id="healthstatus" @bind-Value="Pet.HealthStatus" class="form-control" /> 
+                <ValidationMessage For="() => Pet.HealthStatus" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="breed" class="form-label">Breed:</label> 
+                <InputText id="breed" @bind-Value="Pet.Breed" class="form-control" /> 
+                <ValidationMessage For="() => Pet.Breed" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="age" class="form-label">Age:</label> 
+                <InputNumber id="age" @bind-Value="Pet.Age" class="form-control" /> 
+                <ValidationMessage For="() => Pet.Age" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="sex" class="form-label">Sex:</label> 
+                <InputText id="sex" @bind-Value="Pet.Sex" class="form-control" aria-required="true"/> 
+                <ValidationMessage For="() => Pet.Sex" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="vaccinated" class="form-label">Vaccinated:</label> 
+                <InputCheckbox id="vaccinated" @bind-Value="Pet.Vaccinated" class="form-check-input" /> 
+                <ValidationMessage For="() => Pet.Vaccinated" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="temperamentwcats" class="form-label">TemperamentWCats:</label> 
+                <InputCheckbox id="temperamentwcats" @bind-Value="Pet.TemperamentWCats" class="form-check-input" /> 
+                <ValidationMessage For="() => Pet.TemperamentWCats" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="temperamentwdogs" class="form-label">TemperamentWDogs:</label> 
+                <InputCheckbox id="temperamentwdogs" @bind-Value="Pet.TemperamentWDogs" class="form-check-input" /> 
+                <ValidationMessage For="() => Pet.TemperamentWDogs" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="temperamentwchildren" class="form-label">TemperamentWChildren:</label> 
+                <InputCheckbox id="temperamentwchildren" @bind-Value="Pet.TemperamentWChildren" class="form-check-input" /> 
+                <ValidationMessage For="() => Pet.TemperamentWChildren" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="description" class="form-label">Description:</label> 
+                <InputText id="description" @bind-Value="Pet.Description" class="form-control" /> 
+                <ValidationMessage For="() => Pet.Description" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="price" class="form-label">Price:</label> 
+                <InputNumber id="price" @bind-Value="Pet.Price" class="form-control" /> 
+                <ValidationMessage For="() => Pet.Price" class="text-danger" /> 
+            </div>        
+            <button type="submit" class="btn btn-primary">Create</button>
+        </EditForm>
+    </div>
+</div>
+
+<div>
+    <a href="/pets">Back to List</a>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    private Pet Pet { get; set; } = new();
+
+    // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task AddPet()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Pet.Add(Pet);
+        await context.SaveChangesAsync();
+        NavigationManager.NavigateTo("/pets");
+    }
+}

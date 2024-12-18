@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Annies_Cat_Sanctuary
 build_property.RootNamespace = Annies_Cat_Sanctuary
@@ -32,6 +40,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/caden/OneDrive/Documents/GitHub/Annies_Cat_Sanctuary/Annies_Cat_Sanctuary/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caden/OneDrive/Documents/GitHub/Annies_Cat_Sanctuary/Annies_Cat_Sanctuary/Components/Pages/PetPages/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQZXRQYWdlc1xDcmVhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caden/OneDrive/Documents/GitHub/Annies_Cat_Sanctuary/Annies_Cat_Sanctuary/Components/Pages/PetPages/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQZXRQYWdlc1xEZWxldGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caden/OneDrive/Documents/GitHub/Annies_Cat_Sanctuary/Annies_Cat_Sanctuary/Components/Pages/PetPages/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQZXRQYWdlc1xEZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caden/OneDrive/Documents/GitHub/Annies_Cat_Sanctuary/Annies_Cat_Sanctuary/Components/Pages/PetPages/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQZXRQYWdlc1xFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/caden/OneDrive/Documents/GitHub/Annies_Cat_Sanctuary/Annies_Cat_Sanctuary/Components/Pages/PetPages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQZXRQYWdlc1xJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/caden/OneDrive/Documents/GitHub/Annies_Cat_Sanctuary/Annies_Cat_Sanctuary/Components/Pages/Weather.razor]
