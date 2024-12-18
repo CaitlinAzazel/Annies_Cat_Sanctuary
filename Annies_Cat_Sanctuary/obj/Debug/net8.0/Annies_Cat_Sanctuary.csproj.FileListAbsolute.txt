@@ -266,3 +266,10 @@ C:\Users\caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctua
 C:\Users\caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\Annies_Cat_Sanctuary.pdb
 C:\Users\caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\Annies_Cat_Sanctuary.genruntimeconfig.cache
 C:\Users\caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\ref\Annies_Cat_Sanctuary.dll
+C:\Users\Caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\bin\Debug\net8.0\Annies_Cat_Sanctuary.staticwebassets.endpoints.json
+C:\Users\Caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\staticwebassets\msbuild.Annies_Cat_Sanctuary.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
+C:\Users\Caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\scopedcss\Components\Pages\Events.razor.rz.scp.css
+C:\Users\Caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\scopedcss\Components\Pages\Shelters.razor.rz.scp.css

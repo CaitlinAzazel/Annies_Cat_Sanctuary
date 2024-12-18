@@ -203,3 +203,152 @@ main[b-lptf8knoyh] {
         overflow-y: auto;
     }
 }
+/* _content/Annies_Cat_Sanctuary/Components/Pages/Events.razor.rz.scp.css */
+
+
+h3[b-dearv0y4wl] {
+    font-size: 18px;
+}
+
+.divider[b-dearv0y4wl] {
+    margin-top: 10px;
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #6A1B9A;
+    height: 50px;
+}
+
+    .divider h1[b-dearv0y4wl] {
+        color: white;
+        text-align: left;
+        margin-left: 50px;
+    }
+/* _content/Annies_Cat_Sanctuary/Components/Pages/Home.razor.rz.scp.css */
+div.scroll-container[b-ekb966nykz] {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    max-width: 70rem;
+}
+
+    div.scroll-container .container[b-ekb966nykz] {
+        display: inline-block;
+        position: relative;
+        max-width: 50rem;
+    }
+
+        div.scroll-container .container img[b-ekb966nykz] {
+            padding: 10px;
+            height: 500px;
+            box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+        }
+
+
+.overlay[b-ekb966nykz] {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00008B;
+}
+
+.container:hover .overlay[b-ekb966nykz] {
+    opacity: 0.75;
+}
+
+.text[b-ekb966nykz] {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1[b-ekb966nykz] {
+    font-weight: bold;
+}
+
+.divider[b-ekb966nykz] {
+    margin-top: 10px;
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #6A1B9A;
+    height: 50px;
+}
+
+    .divider h1[b-ekb966nykz] {
+        color: white;
+        text-align: left;
+        margin-left: 50px;
+    }
+/* _content/Annies_Cat_Sanctuary/Components/Pages/Shelters.razor.rz.scp.css */
+
+/**/
+.pageheader[b-1kstubx6tp] {
+    font-size: 2.5rem;
+    font-family: 'Times New Roman';
+    text-align: center;
+    padding: 10px;
+    font-weight: 1000;
+}
+
+/*Card building*/
+.card[b-1kstubx6tp] {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.title[b-1kstubx6tp] {
+    color: grey;
+    font-size: 18px;
+}
+
+button[b-1kstubx6tp] {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a[b-1kstubx6tp] {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+    button:hover[b-1kstubx6tp], a:hover[b-1kstubx6tp] {
+        opacity: 0.7;
+    }
+
+
+/*For stacking things horizontally*/
+ul[b-1kstubx6tp] {
+    list-style: none;
+    text-align: center;
+}
+
+li[b-1kstubx6tp] {
+    display: inline-block;
+    margin-right: 20px;
+}
