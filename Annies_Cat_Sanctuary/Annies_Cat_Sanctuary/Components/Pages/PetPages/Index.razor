@@ -1,0 +1,47 @@
+﻿@page "/pets"
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using Annies_Cat_Sanctuary.Models
+@using Annies_Cat_Sanctuary.Data
+@implements IAsyncDisposable
+@inject IDbContextFactory<Annies_Cat_Sanctuary.Data.Annies_Cat_SanctuaryContext> DbFactory
+
+<PageTitle>Index</PageTitle>
+
+<h1>Index</h1>
+
+<p>
+    <a href="pets/create">Create New</a>
+</p>
+
+<QuickGrid Class="table" Items="context.Pet">
+    <PropertyColumn Property="pet => pet.Name" />
+    <PropertyColumn Property="pet => pet.BirthDate" />
+    <PropertyColumn Property="pet => pet.HealthStatus" />
+    <PropertyColumn Property="pet => pet.Breed" />
+    <PropertyColumn Property="pet => pet.Age" />
+    <PropertyColumn Property="pet => pet.Sex" />
+    <PropertyColumn Property="pet => pet.Vaccinated" />
+    <PropertyColumn Property="pet => pet.TemperamentWCats" />
+    <PropertyColumn Property="pet => pet.TemperamentWDogs" />
+    <PropertyColumn Property="pet => pet.TemperamentWChildren" />
+    <PropertyColumn Property="pet => pet.Description" />
+    <PropertyColumn Property="pet => pet.Price" />
+
+    <TemplateColumn Context="pet">
+        <a href="@($"pets/edit?id={pet.Id}")">Edit</a> |
+        <a href="@($"pets/details?id={pet.Id}")">Details</a> |
+        <a href="@($"pets/delete?id={pet.Id}")">Delete</a>
+    </TemplateColumn>
+</QuickGrid>
+
+@code {
+    private Annies_Cat_SanctuaryContext context = default!;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+    }
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+}
