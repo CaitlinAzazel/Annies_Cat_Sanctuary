@@ -10,11 +10,18 @@
 
 <h1>Index</h1>
 
+<div>
+    <form action="/pets" data-enhance>
+        <input type="search" name="titleFilter" />
+        <input type="submit" value="Search" />
+    </form>
+</div>
+
 <p>
     <a href="pets/create">Create New</a>
 </p>
 
-<QuickGrid Class="table" Items="context.Pet">
+<QuickGrid Class="table" Items="FilteredPets">
     <PropertyColumn Property="pet => pet.Name" />
     <PropertyColumn Property="pet => pet.BirthDate" />
     <PropertyColumn Property="pet => pet.HealthStatus" />
@@ -44,4 +51,11 @@
     }
 
     public async ValueTask DisposeAsync() => await context.DisposeAsync();
+
+    [SupplyParameterFromQuery]
+    private string? TitleFilter { get; set; }
+
+    private IQueryable<Pet> FilteredPets =>
+        context.Pet.Where(m => m.Name!.Contains(TitleFilter ?? string.Empty));
+
 }
