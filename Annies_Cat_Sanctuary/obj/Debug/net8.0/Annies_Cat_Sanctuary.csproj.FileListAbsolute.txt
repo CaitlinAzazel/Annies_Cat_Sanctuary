@@ -270,6 +270,6 @@ C:\Users\Caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctua
 C:\Users\Caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\staticwebassets\msbuild.Annies_Cat_Sanctuary.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\Caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
-C:\Users\Caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\scopedcss\Components\Pages\Events.razor.rz.scp.css
 C:\Users\Caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\scopedcss\Components\Pages\Shelters.razor.rz.scp.css
+C:\Users\Caden\OneDrive\Documents\GitHub\Annies_Cat_Sanctuary\Annies_Cat_Sanctuary\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
