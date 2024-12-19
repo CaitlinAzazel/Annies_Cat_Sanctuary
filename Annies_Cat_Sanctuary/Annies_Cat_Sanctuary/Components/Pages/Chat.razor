@@ -1,0 +1,94 @@
+﻿@using Annies_Cat_Sanctuary.Data
+@using Annies_Cat_Sanctuary.Models
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.EntityFrameworkCore
+@inject ApplicationDbContext DbContext
+@inject UserManager<ApplicationUser> UserManager
+@inject IHttpContextAccessor HttpContextAccessor
+
+
+
+@page "/chat/{RecipientId}"
+
+<h3>Chat</h3>
+
+<div class="chat-window">
+    @if (Messages != null)
+    {
+        foreach (var message in Messages)
+        {
+            <div class="@GetMessageClass(message)">
+                <p>@message.MessageText</p>
+                <span>@message.Timestamp.ToShortTimeString()</span>
+            </div>
+        }
+    }
+</div>
+
+<div class="chat-input">
+    <textarea @bind="NewMessageText" placeholder="Type your message..."></textarea>
+    <button @onclick="SendMessage">Send</button>
+</div>
+
+@code {
+    [Parameter] public string RecipientId { get; set; } // ID of the user to chat with
+
+    private List<Message> Messages { get; set; } = new List<Message>();
+    private string NewMessageText = string.Empty;
+
+    private ApplicationUser CurrentUser;
+    private ApplicationUser Recipient;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var httpContext = HttpContextAccessor.HttpContext;
+        if (httpContext != null)
+        {
+            var userManager = (UserManager<ApplicationUser>)HttpContextAccessor.HttpContext.RequestServices.GetService(typeof(UserManager<ApplicationUser>));
+            CurrentUser = await userManager.GetUserAsync(httpContext.User);
+        }
+
+        Recipient = await DbContext.Users.FindAsync(RecipientId);
+
+        // Load messages between the two users
+        await LoadMessages();
+    }
+
+    private async Task LoadMessages()
+    {
+        Messages = await DbContext.Messages
+            .Where(m =>
+                (m.SenderId == CurrentUser.Id && m.RecipientId == RecipientId) ||
+                (m.SenderId == RecipientId && m.RecipientId == CurrentUser.Id))
+            .OrderBy(m => m.Timestamp)
+            .ToListAsync();
+    }
+
+    private async Task SendMessage()
+    {
+        if (!string.IsNullOrWhiteSpace(NewMessageText))
+        {
+            // Create a new message
+            var message = new Message
+                {
+                    SenderId = CurrentUser.Id,
+                    RecipientId = RecipientId,
+                    MessageText = NewMessageText,
+                    Timestamp = DateTime.Now,
+                    IsRead = false
+                };
+
+            DbContext.Messages.Add(message);
+            await DbContext.SaveChangesAsync();
+
+            // Clear the input and reload messages
+            NewMessageText = string.Empty;
+            await LoadMessages();
+        }
+    }
+
+    private string GetMessageClass(Message message)
+    {
+        return message.SenderId == CurrentUser.Id ? "sent-message" : "received-message";
+    }
+}

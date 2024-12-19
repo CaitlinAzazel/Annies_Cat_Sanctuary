@@ -1,5 +1,6 @@
 ﻿using Annies_Cat_Sanctuary.Components;
 using Annies_Cat_Sanctuary.Components.Account;
+using Annies_Cat_Sanctuary.Components.Pages;
 using Annies_Cat_Sanctuary.Data;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -63,7 +64,11 @@ app.UseAntiforgery();
 app.MapRazorComponents<App>()
 	.AddInteractiveServerRenderMode();
 
+
+
 // Add additional endpoints required by the Identity /Account Razor components.
 app.MapAdditionalIdentityEndpoints();
+
+
 
 app.Run();
