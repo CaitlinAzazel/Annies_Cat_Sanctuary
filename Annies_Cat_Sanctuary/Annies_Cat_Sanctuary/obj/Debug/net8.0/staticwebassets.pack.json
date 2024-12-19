@@ -1,51 +1,55 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Annies_Cat_Sanctuary.bundle.scp.css",
+      "Id": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Annies_Cat_Sanctuary.bundle.scp.css",
       "PackagePath": "staticwebassets\\Annies_Cat_Sanctuary.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\1.jpg",
+      "Id": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\1.jpg",
       "PackagePath": "staticwebassets\\Cats\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\2.jpg",
+      "Id": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\2.jpg",
       "PackagePath": "staticwebassets\\Cats\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\3.jpg",
+      "Id": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\3.jpg",
       "PackagePath": "staticwebassets\\Cats\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\4.jpg",
+      "Id": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\4.jpg",
       "PackagePath": "staticwebassets\\Cats\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Shelter\\FurryWarrior.jpg",
+      "Id": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Shelter\\FurryWarrior.jpg",
       "PackagePath": "staticwebassets\\Shelter\\FurryWarrior.jpg"
     },
     {
-      "Id": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Shelter\\HopefulHearts.jpg",
+      "Id": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Shelter\\HopefulHearts.jpg",
       "PackagePath": "staticwebassets\\Shelter\\HopefulHearts.jpg"
     },
     {
-      "Id": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Shelter\\NewBegginings.jpg",
+      "Id": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Shelter\\NewBegginings.jpg",
       "PackagePath": "staticwebassets\\Shelter\\NewBegginings.jpg"
     },
     {
-      "Id": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\app.css",
+      "Id": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\css\\chat.css",
+      "PackagePath": "staticwebassets\\css\\chat.css"
+    },
+    {
+      "Id": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

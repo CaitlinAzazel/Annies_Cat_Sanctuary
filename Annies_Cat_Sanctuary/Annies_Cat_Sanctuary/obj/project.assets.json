@@ -8100,19 +8100,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\orivi\\.nuget\\packages\\": {}
+    "C:\\Users\\rayann.vistada\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary.csproj",
+      "projectUniqueName": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary.csproj",
       "projectName": "Annies_Cat_Sanctuary",
-      "projectPath": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary.csproj",
-      "packagesPath": "C:\\Users\\orivi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\",
+      "projectPath": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary.csproj",
+      "packagesPath": "C:\\Users\\rayann.vistada\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\orivi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rayann.vistada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8190,7 +8195,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

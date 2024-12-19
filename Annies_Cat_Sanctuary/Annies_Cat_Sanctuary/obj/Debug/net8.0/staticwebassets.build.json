@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dCmaLFJl6jnArjxv8gFwtNjsx78+RF7oePg8DpPFykY=",
+  "Hash": "k5eiIEG598aUCDR3i6MMfqD9LV9SbmD+cFX+2ztPf88=",
   "Source": "Annies_Cat_Sanctuary",
   "BasePath": "_content/Annies_Cat_Sanctuary",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Annies_Cat_Sanctuary\\wwwroot",
       "Source": "Annies_Cat_Sanctuary",
-      "ContentRoot": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
       "BasePath": "_content/Annies_Cat_Sanctuary",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\orivi\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Identity": "C:\\Users\\rayann.vistada\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\orivi\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\orivi\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\rayann.vistada\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\orivi\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\QuickGrid.razor.js",
+      "Identity": "C:\\Users\\rayann.vistada\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\QuickGrid.razor.js",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\orivi\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\orivi\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\QuickGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\rayann.vistada\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Annies_Cat_Sanctuary.styles.css",
+      "Identity": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Annies_Cat_Sanctuary.styles.css",
       "SourceId": "Annies_Cat_Sanctuary",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Annies_Cat_Sanctuary",
       "RelativePath": "Annies_Cat_Sanctuary.styles.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Annies_Cat_Sanctuary.styles.css"
+      "OriginalItemSpec": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Annies_Cat_Sanctuary.styles.css"
     },
     {
-      "Identity": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Annies_Cat_Sanctuary.bundle.scp.css",
+      "Identity": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Annies_Cat_Sanctuary.bundle.scp.css",
       "SourceId": "Annies_Cat_Sanctuary",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Annies_Cat_Sanctuary",
       "RelativePath": "Annies_Cat_Sanctuary.bundle.scp.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Annies_Cat_Sanctuary.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Annies_Cat_Sanctuary.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\app.css",
       "SourceId": "Annies_Cat_Sanctuary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
       "BasePath": "_content/Annies_Cat_Sanctuary",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Annies_Cat_Sanctuary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
       "BasePath": "_content/Annies_Cat_Sanctuary",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Annies_Cat_Sanctuary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
       "BasePath": "_content/Annies_Cat_Sanctuary",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\1.jpg",
+      "Identity": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\1.jpg",
       "SourceId": "Annies_Cat_Sanctuary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
       "BasePath": "_content/Annies_Cat_Sanctuary",
       "RelativePath": "Cats/1.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Cats\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\2.jpg",
+      "Identity": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\2.jpg",
       "SourceId": "Annies_Cat_Sanctuary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
       "BasePath": "_content/Annies_Cat_Sanctuary",
       "RelativePath": "Cats/2.jpg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Cats\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\3.jpg",
+      "Identity": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\3.jpg",
       "SourceId": "Annies_Cat_Sanctuary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
       "BasePath": "_content/Annies_Cat_Sanctuary",
       "RelativePath": "Cats/3.jpg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\Cats\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\4.jpg",
+      "Identity": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Cats\\4.jpg",
       "SourceId": "Annies_Cat_Sanctuary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
       "BasePath": "_content/Annies_Cat_Sanctuary",
       "RelativePath": "Cats/4.jpg",
       "AssetKind": "All",
@@ -226,10 +226,29 @@
       "OriginalItemSpec": "wwwroot\\Cats\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\css\\chat.css",
       "SourceId": "Annies_Cat_Sanctuary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
+      "BasePath": "_content/Annies_Cat_Sanctuary",
+      "RelativePath": "css/chat.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\chat.css"
+    },
+    {
+      "Identity": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\favicon.png",
+      "SourceId": "Annies_Cat_Sanctuary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
       "BasePath": "_content/Annies_Cat_Sanctuary",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -245,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Shelter\\FurryWarrior.jpg",
+      "Identity": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Shelter\\FurryWarrior.jpg",
       "SourceId": "Annies_Cat_Sanctuary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
       "BasePath": "_content/Annies_Cat_Sanctuary",
       "RelativePath": "Shelter/FurryWarrior.jpg",
       "AssetKind": "All",
@@ -264,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\Shelter\\FurryWarrior.jpg"
     },
     {
-      "Identity": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Shelter\\HopefulHearts.jpg",
+      "Identity": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Shelter\\HopefulHearts.jpg",
       "SourceId": "Annies_Cat_Sanctuary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
       "BasePath": "_content/Annies_Cat_Sanctuary",
       "RelativePath": "Shelter/HopefulHearts.jpg",
       "AssetKind": "All",
@@ -283,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\Shelter\\HopefulHearts.jpg"
     },
     {
-      "Identity": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Shelter\\NewBegginings.jpg",
+      "Identity": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\Shelter\\NewBegginings.jpg",
       "SourceId": "Annies_Cat_Sanctuary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\orivi\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rayann.vistada\\Documents\\GitHub\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\Annies_Cat_Sanctuary\\wwwroot\\",
       "BasePath": "_content/Annies_Cat_Sanctuary",
       "RelativePath": "Shelter/NewBegginings.jpg",
       "AssetKind": "All",
